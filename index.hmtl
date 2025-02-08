@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Portfólio - Ruth Silva</title>
+</head>
+
+<body>
+  <!-- Menu de Navegação -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#certificacoes">Certificações</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+  <main>
+
+    <!-- Seção Inicial -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img src="img/ruth.png" alt="Foto de Ruth Silva" class="profile-img">
+        <h1>Ruth Silva</h1>
+        <p>Desenvolvedora Full Stack</p>
+        <div class="social-links">
+          <a href="https://github.com/RRose23/RRose23" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/ruth-silva-2065b9255/" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="about" class="section">
+      <h2>Sobre Mim</h2>
+      <p>Desenvolvedora Full-Stack formanda em <strong>Full-Stack Developer</strong> pela <strong>Tokio School</strong>,
+        com habilidades em HTML, CSS, JavaScript, e Node.js. Ansiosa para contribuir em projetos desafiadores!</p>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills" class="section">
+      <h3>Minhas Habilidades</h3>
+      <br>
+      <div class="skills-grid">
+        <span><i class="fab fa-html5"></i> HTML</span>
+        <span><i class="fab fa-css3"></i> CSS</span>
+        <span><i class="fab fa-js"></i> JavaScript</span>
+        <span><i class="fab fa-node-js"></i> Node.js</span>
+        <span><i class="fas fa-database"></i> SQL</span>
+        <span><i class="fab fa-git"></i> Git</span>
+      </div>
+    </section>
+
+    <!-- Formação Acadêmica -->
+    <section id="education" class="section">
+      <h3>Formação Acadêmica</h3>
+      <br>
+      <div class="education">
+        <div class="education-item">
+          <i class="fas fa-graduation-cap"></i>
+          <h4>Full-Stack Developer</h4>
+          <p>Tokio School</p>
+          <div class="container">
+            <div class="skills" style="width: 80%;">80%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificações -->
+    <section id="certificacoes" class="section">
+      <h3>Certificações</h3>
+      <br>
+      <div class="certifications">
+        <h4>Desenvolvimento Responsivo com HTML5, CSS3 e JavaScript</h4>
+        <p>Udemy | Carga Horária: 12h</p>
+        <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-0e74de10-d1a2-41c8-9ec0-fc88c5695c8e.jpg"
+          target="_blank" class="btn-certificate">Ver Certificado</a>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="section">
+      <h3>Projetos</h3>
+      <p>Brevemente</p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="section">
+      <h2>Contato</h2>
+      <p class="availability">Disponível para oportunidades como desenvolvedora júnior ou projetos freelancer.</p>
+      <form action="https://formspree.io/f/mvgzqwjv" method="POST" class="contact-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé-->
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 Ruth Silva | Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="https://github.com/RRose23/RRose23" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ruth-silva-2065b9255/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
